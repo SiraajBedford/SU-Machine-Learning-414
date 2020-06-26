@@ -5,6 +5,8 @@
 @author: kroon
 '''
 
+from __future__ import division
+
 import numpy as np
 
 
@@ -46,7 +48,7 @@ class Gaussian(object):
     
     Example
     -------
-    >>> from gaussian import Gaussian
+    >>> from density import Gaussian
     >>> # Scalar example
     >>> mean = [10.]
     >>> cov  = [[1.]]
